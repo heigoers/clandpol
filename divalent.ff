@@ -1,0 +1,9 @@
+# Cations for SWM4-NDP water (kJ/mol, A, deg)
+# (from Yu et al., JCTC, 2010, 6, 774-786)
+
+ATOMS
+#   type  m/uma    q/e      pot   pars
+Ca  Ca    40.080  +2.00     lj    2.22644  0.8786
+Mg  Mg    24.305  +2.00     lj    2.00704  0.2092
+Zn  Zn   65.380   +2.00     lj    1.66592  1.0460
+Cl  Cl    35.453  -1.00     lj    4.42084  0.3011
