@@ -122,6 +122,9 @@ Zn         dmso    3.089    0.06
 Ca         thf     3.400    0.05
 Mg         thf     3.371    0.01
 Zn         thf     3.219    0.03
+Ca         slflane 3.504    0.05
+Mg         slflane 3.231    0.01
+Zn         slflane 3.635    0.03
 # neutral-anion
 C4H10      dca     3.542    0.69
 C6H14      dca     3.608    0.61
@@ -158,6 +161,7 @@ me2o       ntf2    4.519    0.75
 h2o        ntf2    3.867
 h2o        oac     3.132
 thf        cl      3.511    0.46
+slflane    cl      3.827    0.43
 # neutral-neutral
 C4H10      C4H10   4.170    0.94
 C4H10      tol     3.618    0.90
