@@ -54,7 +54,7 @@ urea         0.0      4.2041
 nmp          0.0      3.7301  
 actn         0.0      2.6009
 ch3cooh      0.0      4.0667
-me2o         0.0      1.2190
+me2o         0.0      1.4548
 h2o          0.0      2.0430
 thf          0.0      1.9421
 slflane      0.0      6.1138
@@ -125,6 +125,7 @@ Zn         thf     3.219    0.03
 Ca         slflane 3.504    0.05
 Mg         slflane 3.231    0.01
 Zn         slflane 3.635    0.03
+Ca         me2o    2.743    0.05
 # neutral-anion
 C4H10      dca     3.542    0.69
 C6H14      dca     3.608    0.61
@@ -191,7 +192,7 @@ an         an      3.403    0.69
 bz         bz      3.800    0.95
 bz         nmp     5.010    0.89
 nmp        nmp     3.518    0.79
-me2o       me2o    3.976    0.82
+me2o       me2o    3.360    0.89
 h2o        h2o     2.780
 thf        thf     3.834    0.81
 slflane    slflane 4.709    0.69
