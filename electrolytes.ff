@@ -33,9 +33,9 @@ H1O   HC   1.008   0.040  lj    2.50   0.12552
 OH    OH  15.999  -0.683  lj    3.12   0.71128
 HO    HO   1.008   0.418  lj    0.00   0.00000
 # Ethers OPLS-AA 2020 - J. Phys. Chem. B (2024), 128, 1, 250-262
-# CT2 for C in RCH2OR and CT3 for CH2, HC2 for alpha H in ROR, HC3 for other H
+# CT2 for C in RCH2OR and CT3 for ROCH3, HC2 for alpha H in ROR, HC3 for other H
 CT2   CT   12.011   0.140   lj    3.50   0.27614
-CT3   CT   12.011  -0.120   lj    3.51   0.27614
+CT3   CT   12.011   0.110   lj    3.50   0.27614  
 HC2   HC    1.008   0.030   lj    2.48   0.10878
 HC3   HC    1.008   0.060   lj    2.48   0.10878
 OS    OS   15.999  -0.400   lj    2.90   0.50208
