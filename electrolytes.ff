@@ -46,6 +46,9 @@ CSZ   CT  12.011  -0.035  lj    3.50   0.27614
 # Sulfones, OPLS-AA
 SY    SY  32.060   1.374  lj    3.55   1.04600
 OYS   OY  15.999  -0.687  lj    2.96   1.17150
+C3Y   CT  12.011  -0.18   lj    3.50   0.27614
+C2Y   CT  12.011  -0.12   lj    3.50   0.27614
+HCY   HC   1.008   0.06   lj    2.50   0.12552
 
 
 BONDS
@@ -108,6 +111,7 @@ HC  CT  CT  OS   opls    0.0000    0.0000    1.2552    0.0000
 CT  OS  CT  CT   opls    1.0460   -1.0460    2.0921    0.0000    
 CT  OS  CT  HC   opls    0.0000    0.0000    3.1798    0.0000
 CT  CT  CT  OS   opls    5.4393   -2.0921    0.0000    0.0000
+OS  CT  CT  OS   opls   -2.3013    0.0000    0.0000    0.0000
 # DMSO
 HC  CT  SZ  OY   opls    0.0000    0.0000    1.4644    0.0000
 HC  CT  SZ  CT   opls    0.0000    0.0000    1.4644    0.0000
@@ -118,6 +122,8 @@ HC  CT  SY  CT   opls    0.0000    0.0000    1.4644    0.0000
 CT  CT  SY  CT   opls    0.0000    0.0000    0.0000    0.0000
 CT  CT  SY  OY   opls    0.0000    0.0000    0.0000    0.0000
 CT  CT  CT  SY   opls    5.2803   -0.8285    1.9456    0.0000
+# from LibParGen
+OS  CT  CT  SY   opls    0.0000    0.0000    1.9580    0.0000
 
 
 IMPROPER

@@ -58,6 +58,7 @@ me2o         0.0      1.4548
 h2o          0.0      2.0430
 thf          0.0      1.9421
 slflane      0.0      6.1138
+ems          0.0      5.5065
 
 DIMERS
 # m1        m2     r_COM/Å  k_sapt
@@ -126,6 +127,9 @@ Ca         slflane 3.504    0.05
 Mg         slflane 3.231    0.01
 Zn         slflane 3.635    0.03
 Ca         me2o    2.743    0.05
+Ca         ems     3.171    0.05
+Mg         ems     3.171    0.01
+
 # neutral-anion
 C4H10      dca     3.542    0.69
 C6H14      dca     3.608    0.61
@@ -163,6 +167,7 @@ h2o        ntf2    3.867
 h2o        oac     3.132
 thf        cl      3.511    0.46
 slflane    cl      3.827    0.43
+ems        cl      3.400    0.27
 # neutral-neutral
 C4H10      C4H10   4.170    0.94
 C4H10      tol     3.618    0.90
@@ -171,6 +176,7 @@ C4H10      dme     3.663    0.93
 C4H10      an      3.880    0.87
 C4H10      bz      3.618
 C4H10      c6h12   5.125
+C4H10      ems     4.590    0.82
 c6h12      c6h12   6.062
 C4H10      ch3cooh 3.501
 C4H10      urea    3.344
