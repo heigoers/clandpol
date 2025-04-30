@@ -72,7 +72,7 @@ DIMERS
 # m1        m2     r_COM/Å  k_sapt
 # cation-anion
 c2c1im     dca     2.935    0.61
-c2c1im     ntf2    4.314    0.65
+c2c1im     tfsi    4.314    0.65
 c2c1im     bf4     3.088    0.52
 c2c1im     oac     4.073    0.27
 c2c1im     otf     4.290    0.49
@@ -80,19 +80,19 @@ c2c1im     mso     3.546    0.44
 c2c1im     pf6     4.183
 c1c1pyrr   bf4     3.724    0.46
 c1c1pyrr   dca     4.094    0.53
-c1c1pyrr   ntf2    4.725    0.54
+c1c1pyrr   tfsi    4.725    0.54
 c1c1pyrr   fsi     4.358
 c2py       bf4     3.143    0.51
-c2py       ntf2    4.206    0.60
+c2py       tfsi    4.206    0.60
 N1111      bf4     3.819    0.43
-N1111      ntf2    4.576    0.55
+N1111      tfsi    4.576    0.55
 N1111      cl      3.524
 N1111      oac     3.995
 N2000      no3     3.453    0.20
 P1111      cl      3.453
 P1111      oac     3.855
 P1111      fsi     4.226
-P1111      ntf2    4.422    0.56
+P1111      tfsi    4.422    0.56
 ch         cl      3.499    0.35
 Na         fsi     2.815
 Li         fsi     2.548
@@ -137,14 +137,15 @@ Ca         slflane 3.504    0.05
 Mg         slflane 3.231    0.01
 Zn         slflane 3.635    0.03
 Ca         me2o    2.743    0.05
+Mg         me2o    2.120    0.01
+Zn         me2o    2.881    0.04
 Ca         ems     3.171    0.05
 Mg         ems     3.171    0.01
-
 # neutral-anion
 C4H10      dca     3.542    0.69
 C6H14      dca     3.608    0.61
-C4H10      ntf2    4.436    0.77
-C6H14      ntf2    4.117    0.77
+C4H10      tfsi    4.436    0.77
+C6H14      tfsi    4.117    0.77
 C4H10      bf4     3.531    0.51
 C6H14      bf4     3.476    0.51
 C4H10      mso     3.737    0.56
@@ -163,21 +164,22 @@ urea       cl      3.718
 actn       cl      3.937
 ch3cooh    cl      3.737
 ch3cooh    br      3.944
-dmso       ntf2    4.355    0.69
+dmso       tfsi    4.355    0.69
 dmso       oac     3.844    0.42
 dmso       cl      3.962    0.37
 dme        fsi     4.583    0.73
 tol        mso     4.898    0.50
-an         ntf2    4.950    0.71
+an         tfsi    4.950    0.71
 bz         oac     4.879    0.37
 bz         otf     5.858    0.64
 bz         br      4.792
-me2o       ntf2    4.519    0.75
-h2o        ntf2    3.867
+me2o       tfsi    4.519    0.75
+h2o        tfsi    3.867
 h2o        oac     3.132
 thf        cl      3.511    0.46
 slflane    cl      3.827    0.43
 ems        cl      3.400    0.27
+me2o       cl      4.419    0.43
 # neutral-neutral
 C4H10      C4H10   4.170    0.94
 C4H10      tol     3.618    0.90
