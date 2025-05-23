@@ -43,6 +43,7 @@ OS    OS   15.999  -0.400   lj    2.90   0.50208
 SZ    SZ  32.066   0.130  lj    3.56   1.65268
 OYZ   OY  15.999  -0.420  lj    2.93   1.17152
 CSZ   CT  12.011  -0.035  lj    3.50   0.27614
+C2Z   CT  12.011   0.025  lj    3.50   0.27614
 # Sulfones, OPLS-AA
 SY    SY  32.060   1.374  lj    3.55   1.04600
 OYS   OY  15.999  -0.687  lj    2.96   1.17150
@@ -86,6 +87,7 @@ CT  OS  CT   harm   109.5   502.1
 OY  SZ  CT   harm   107.0   619.2
 SZ  CT  HC   harm   109.5   292.9
 CT  SZ  CT   harm    96.0   518.8
+CT  CT  SZ   harm   108.6   418.4
 # Sulfones
 CT  SY  OY   harm   110.5   619.2
 CT  SY  CT   harm   102.0   518.8
@@ -124,6 +126,9 @@ CT  CT  SY  OY   opls    0.0000    0.0000    0.0000    0.0000
 CT  CT  CT  SY   opls    5.2803   -0.8285    1.9456    0.0000
 # from LibParGen
 OS  CT  CT  SY   opls    0.0000    0.0000    1.9580    0.0000
+CT  CT  SZ  CT   opls    3.8695   -2.4100    2.8325    0.0000
+CT  CT  SZ  OY   opls    0.0000    0.0000    0.0000    0.0000
+HC  CT  CT  SZ   opls    0.0000    0.0000    1.8912    0.0000
 
 
 IMPROPER

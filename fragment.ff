@@ -63,7 +63,11 @@ me2o         0.0      1.4548
 h2o          0.0      2.1217
 thf          0.0      1.9421
 slflane      0.0      6.1138
+3mesl        0.0      6.2606
 ems          0.0      5.5065
+emso         0.0      4.9310
+deso         0.0      5.0306
+mems         0.0      5.1414
 dmf          0.0      4.3105
 ec           0.0      5.9471
 pc           0.0      6.0915
@@ -127,6 +131,8 @@ Na         dme     2.245
 Li         dme     1.737
 Na         C4H10   3.506
 Li         C4H10   3.133
+Ca         C4H10   2.726    0.05
+Mg         C4H10   1.808    0.01
 Ca         dmso    3.545    0.05  
 Mg         dmso    3.323    0.01 
 Zn         dmso    3.089    0.06
@@ -136,11 +142,16 @@ Zn         thf     3.219    0.03
 Ca         slflane 3.504    0.05
 Mg         slflane 3.231    0.01
 Zn         slflane 3.635    0.03
+Ca         3mesl   3.837    0.05
+Mg         3mesl   3.567    0.01
 Ca         me2o    2.743    0.05
 Mg         me2o    2.120    0.01
 Zn         me2o    2.881    0.04
 Ca         ems     3.171    0.05
-Mg         ems     3.171    0.01
+Mg         ems     2.896    0.01
+Ca         emso    3.904    0.05
+Mg         emso    3.688    0.01
+
 # neutral-anion
 C4H10      dca     3.542    0.69
 C6H14      dca     3.608    0.61
@@ -149,7 +160,7 @@ C6H14      tfsi    4.117    0.77
 C4H10      bf4     3.531    0.51
 C6H14      bf4     3.476    0.51
 C4H10      mso     3.737    0.56
-C4H10      cl      3.303
+C4H10      cl      3.348    0.45
 C4H10      br      3.501
 C4H10      oac     4.273
 C4H10      otf     3.960
@@ -178,7 +189,9 @@ h2o        tfsi    3.867
 h2o        oac     3.132
 thf        cl      3.511    0.46
 slflane    cl      3.827    0.43
+3mesl      cl      4.090    0.28
 ems        cl      3.400    0.27
+emso       cl      3.810    0.26
 me2o       cl      4.419    0.43
 # neutral-neutral
 C4H10      C4H10   4.170    0.94
@@ -206,6 +219,7 @@ urea       urea    4.317
 ch3cooh    ch3cooh 4.221
 ch3cooh    actn    3.396
 dme        dme     3.856    0.84
+dme        me2o    3.886    0.81 
 an         an      3.403    0.69
 bz         bz      3.800    0.95
 bz         nmp     5.010    0.89
@@ -214,6 +228,9 @@ me2o       me2o    3.360    0.89
 h2o        h2o     2.780
 thf        thf     3.834    0.81
 slflane    slflane 4.709    0.69
-ems        ems     6.030    0.81
+3mesl      3mesl   4.503    0.61
+ems        ems     4.379    0.58
 ems        me2o    4.242    0.61
-dme        me2o    3.886    0.81 
+emso       emso    3.888    0.50
+deso       deso    4.147    0.61
+mems       mems    4.317    0.72
