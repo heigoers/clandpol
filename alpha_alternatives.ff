@@ -1,0 +1,66 @@
+# alpha_alternatives.ff, version 2025/05/23
+# Polarisable force field for ionic liquids
+# Agilio Padua <agilio.padua@ens-lyon.fr>
+# Kateryna Goloviznina <kateryna.goloviznina@ens-lyon.fr>
+# Mathieu Cancade <mathieu.cancade@ens-lyon.fr>
+# Heigo Ers <heigo.ers@ens-lyon.fr>
+#
+# units: kJ/mol, A, deg
+# kforce is in the form k/2 r_D^2
+
+# type  m_D/u   q_D/e    k_D   alpha/A3  a_thole
+### NEUTRAL ###
+# alkyl groups
+CS      0.4    -1.0     4184.0   1.016   2.6
+CT2     0.4    -1.0     4184.0   1.016   2.6
+CT3     0.4    -1.0     4184.0   1.016   2.6
+C3H     0.4    -1.0     4184.0   1.016   2.6
+C2H     0.4    -1.0     4184.0   1.016   2.6
+CT      0.4    -1.0     4184.0   1.016   2.6
+HC      0.0     0.0        0.0   0.323   0.0
+# alkanes (CHARMM polarizable)
+C3H     0.4    -1.0     4184.0   2.051    2.6
+C2H     0.4    -1.0     4184.0   1.660    2.6
+C1H     0.4    -1.0     4184.0   1.302    2.6
+C4C     0.4    -1.0     4184.0   1.302    2.6
+# ethers
+#OS      0.4    -1.0     4184.0   1.144   2.6
+#HCO     0.0     0.0        0.0   0.323   0.0
+#C2P     0.4    -1.0     4184.0   1.016   2.6
+#C3P     0.4    -1.0     4184.0   1.016   2.6
+#COM     0.4    -1.0     4184.0   1.016   2.6
+#OY      0.4    -1.0     4184.0   1.144   2.6
+#C3O     0.4    -1.0     4184.0   1.016   2.6
+# sulfoxides CHARMM
+#SZ      0.4    -1.0     4184.0   0.930   2.6
+#CSZ     0.4    -1.0     4184.0   1.642   2.6
+#OYZ     0.4    -1.0     4184.0   0.990   2.6
+# alcohols (CHARMM polarizable)
+#OH      0.4    -1.0     4184.0   1.028    2.6
+#CTO     0.4    -1.0     4184.0   1.000    2.6
+#C2O     0.4    -1.0     4184.0   1.400    2.6
+# ethanol Noskov JPCB 109 (2005) 6705
+#OH      0.4    -1.0     4184.0   0.97772  2.6
+#CTO     0.4    -1.0     4184.0   1.21757  2.6
+#C2O     0.4    -1.0     4184.0   1.23758  2.6
+#HO      0.0     0.0        0.0   0.32300  2.6
+#HC      0.0     0.0        0.0   0.32300  2.6
+#H1O     0.0     0.0        0.0   0.32300  2.6
+# methanol (CHARMM polarizable)
+#CTO      0.4    -1.0     4184.0   1.000  2.6
+#OH       0.4    -1.0     4184.0   1.028  2.6
+#HO       0.0     0.0        0.0   0.323  2.6
+#H1O      0.0     0.0        0.0   0.323  2.6
+# linear ethers (CHARMM polarizable)
+#CT2	 0.4	-1.0	 4184.0	  1.696	 2.6	
+#CT3	 0.4	-1.0	 4184.0	  1.798	 2.6
+#OS	     0.4	-1.0	 4184.0	  0.705	 2.6
+#HC	     0.0	 0.0	    0.0	  0.323	 0.0
+# cyclic ethers (CHARMM polarizable)
+CT2C     0.4    -1.0    4184.0   1.562  2.6  
+OSC      0.4    -1.0    4184.0   0.618  2.6
+HC       0.0     0.0       0.0   0.323  0.0
+### ANIONS ###
+# halides Chem. Phys 149(2018) 044302
+#Cl      0.4    -1.0     4184.0   4.40    2.6
+### CATIONS ###

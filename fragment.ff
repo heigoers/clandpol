@@ -218,7 +218,8 @@ meoh       actn    3.363
 urea       urea    4.317
 ch3cooh    ch3cooh 4.221
 ch3cooh    actn    3.396
-dme        dme     3.856    0.89
+dme        dme     3.856    0.84
+dme        me2o    3.886    0.81 
 an         an      3.403    0.69
 bz         bz      3.800    0.95
 bz         nmp     5.010    0.89
