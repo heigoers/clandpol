@@ -103,8 +103,12 @@ Li         fsi     2.548
 Ca         cl      2.334    0.05
 Mg         cl      2.157    0.00
 Zn         cl      2.083    0.06
-Ca         tfsi    2.659    0.01
+Ca         tfsi    2.659    0.06
 Mg         tfsi    2.468    0.01
+Ca         pf6     2.771    0.06
+Mg         pf6     2.473    0.01
+Ca         bf4     2.335    0.07
+Mg         bf4     2.060    0.01
 # cation-neutral
 c2c1im     C4H10   3.613    0.76
 c2c1im     C6H14   3.992    0.74
@@ -153,6 +157,8 @@ Ca         ems     3.171    0.05
 Mg         ems     2.896    0.01
 Ca         emso    3.904    0.05
 Mg         emso    3.688    0.01
+Ca         ec      4.040    0.05
+Mg         ec      3.806    0.01
 
 # neutral-anion
 C4H10      dca     3.542    0.69
@@ -194,8 +200,15 @@ thf        cl      3.511    0.46
 slflane    cl      3.827    0.43
 3mesl      cl      4.090    0.28
 ems        cl      3.400    0.27
+ems        bf4     4.168    0.51
+ems        pf6     5.112    0.39
+ec         cl      4.384    0.42
+ec         bf4     4.663    0.39
+ec         pf6     5.128    0.44
+me2o       pf6     4.237    0.60
 emso       cl      3.810    0.26
 me2o       cl      4.419    0.43
+me2o       bf4     3.828    0.53
 # neutral-neutral
 C4H10      C4H10   4.170    0.94
 C4H10      tol     3.618    0.90
