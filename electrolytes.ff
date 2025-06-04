@@ -1,4 +1,4 @@
-# electrolytes.ff, version 2025/04/10
+# electrolytes.ff, version 2025/06/04
 # CL&P molecular force field for electrolytes with divalent cations
 # contributors:
 # contact: 
@@ -50,6 +50,12 @@ OYS   OY  15.999  -0.687  lj    2.96   1.17150
 C3Y   CT  12.011  -0.18   lj    3.50   0.27614
 C2Y   CT  12.011  -0.12   lj    3.50   0.27614
 HCY   HC   1.008   0.06   lj    2.50   0.12552
+# bistriflamide JPCB 108 (2004) 16893, PCCP 43 (2017) 29617, charges from CHelpG calc.
+CBT   CF   12.011   0.33   lj    3.50   0.27614
+SBT   SB   32.066   1.13   lj    3.55   1.04600
+NBT   NB   14.000  -0.67   lj    3.25   0.71128
+OBT   OB   15.999  -0.58   lj    3.15   0.83736
+F1    FB   18.998  -0.16   lj    3.118  0.25540
 
 
 BONDS
@@ -68,6 +74,12 @@ SZ  CT   harm   1.790   2845.1
 # Sulfones
 SY  CT   harm   1.770   2845.1
 SY  OY   harm   1.440   5857.6
+# triflate and bistriflamide JPCB108(2004)16893
+FB  CF   harm   1.323   3698.0
+CF  SB   harm   1.818   1950.0
+SB  OB   harm   1.437   5331.0
+NB  SB   harm   1.570   3137.0
+
 
 ANGLES
 # i j   k    pot    th/deg  ka/kjmol-1
@@ -93,8 +105,16 @@ CT  SY  OY   harm   110.5   619.2
 CT  SY  CT   harm   102.0   518.8
 OY  SY  OY   harm   119.0   870.3
 CT  CT  SY   harm   108.6   418.4
-SY  CT  HC   harm   109.5   292.9      
-   
+SY  CT  HC   harm   109.5   292.9
+# triflate and bistriflamide JPCB108(2004)16893
+FB  CF  FB   harm   107.1   781.0
+FB  CF  SB   harm   111.7   694.0
+OB  SB  OB   harm   118.5   969.0
+CF  SB  OB   harm   102.6   870.0
+NB  SB  OB   harm   113.6   789.0
+NB  SB  CF   harm   103.5   764.0
+SB  NB  SB   harm   125.6   671.0      
+
 
 DIHEDRALS
 # i j   k   l    pot     v1        v2        v3        v4
@@ -129,6 +149,11 @@ OS  CT  CT  SY   opls    0.0000    0.0000    1.9580    0.0000
 CT  CT  SZ  CT   opls    3.8695   -2.4100    2.8325    0.0000
 CT  CT  SZ  OY   opls    0.0000    0.0000    0.0000    0.0000
 HC  CT  CT  SZ   opls    0.0000    0.0000    1.8912    0.0000
+# triflate and bistriflamide JPCB 108 (2004) 16893
+OB  SB  CF  FB   opls    0.0000    0.0000    1.4510    0.0000
+NB  SB  CF  FB   opls    0.0000    0.0000    1.3220    0.0000
+OB  SB  NB  SB   opls    0.0000    0.0000   -0.0150    0.0000
+SB  NB  SB  CF   opls   32.7730  -10.4200   -3.1950    0.0000
 
 
 IMPROPER
