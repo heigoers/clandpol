@@ -51,11 +51,14 @@ C3Y   CT  12.011  -0.18   lj    3.50   0.27614
 C2Y   CT  12.011  -0.12   lj    3.50   0.27614
 HCY   HC   1.008   0.06   lj    2.50   0.12552
 # bistriflamide JPCB 108 (2004) 16893, PCCP 43 (2017) 29617, charges from CHelpG calc.
-CBT   CF   12.011   0.33   lj    3.50   0.27614
-SBT   SB   32.066   1.13   lj    3.55   1.04600
-NBT   NB   14.000  -0.67   lj    3.25   0.71128
-OBT   OB   15.999  -0.58   lj    3.15   0.83736
-F1    FB   18.998  -0.16   lj    3.118  0.25540
+CBT   CF   12.011   0.35   lj    3.50   0.27614
+SBT   SB   32.066   1.02   lj    3.55   1.04600
+NBT   NB   14.000  -0.66   lj    3.25   0.71128
+OBT   OB   15.999  -0.53   lj    3.15   0.83736
+F1    FB   18.998  -0.16   lj    3.118  0.25540 
+# hexafluorophosphate JCSPerkin2 (1999) 2365
+P     P    30.974   1.34   lj    3.74   0.83680
+FP    F    18.998  -0.39   lj    3.12   0.25520
 # Carbonates, OPLS-AA
 COC   C    12.011   0.86   lj    3.75   0.43932
 OC    O    15.999  -0.50   lj    2.96   0.87864
@@ -63,7 +66,8 @@ OSC   OS   15.999  -0.45   lj    3.00   0.71128
 C3C   CT   12.011   0.18   lj    3.50   0.27614
 C2C   CT   12.011   0.21   lj    3.50   0.27614
 C1C   CT   12.011   0.16   lj    3.50   0.27614
-HCC   HC    1.008   0.03   lj    2.50   0.10878   
+HCC   HC    1.008   0.03   lj    2.50   0.10878  
+
 
 BONDS
 # i j    pot    re/A    kr/kJmol-1
@@ -86,6 +90,8 @@ FB  CF   harm   1.323   3698.0
 CF  SB   harm   1.818   1950.0
 SB  OB   harm   1.437   5331.0
 NB  SB   harm   1.570   3137.0
+# hexafluorophosphate JCSPerkin2(1999)2365
+P   F    harm   1.606   3100.0
 # Carbonates
 C   OS   harm   1.327   1790.8
 C   O    harm   1.229   4769.8
@@ -127,6 +133,9 @@ SB  NB  SB   harm   125.6   671.0
 # Carbonates
 CT  OS  C    harm   116.9   695.5
 OS  C   O    harm   123.4   695.5
+# hexafluorophosphate JCSPerkin2(1999)2365
+F   P   F    harm    90.0  1165.0
+
 
 DIHEDRALS
 # i j   k   l    pot     v1        v2        v3        v4
