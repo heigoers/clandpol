@@ -130,9 +130,11 @@ CF  SB  OB   harm   102.6   870.0
 NB  SB  OB   harm   113.6   789.0
 NB  SB  CF   harm   103.5   764.0
 SB  NB  SB   harm   125.6   671.0      
-# Carbonates
+# Carbonates OPLS-AA
 CT  OS  C    harm   116.9   695.5
 OS  C   O    harm   123.4   695.5
+# Carbonates libpar
+OS  C   OS   harm   118.2   584.9
 # hexafluorophosphate JCSPerkin2(1999)2365
 F   P   F    harm    90.0  1165.0
 
@@ -182,6 +184,7 @@ CT  OS  C   OS   opls   19.5355   21.4393    0.0000    0.0000
 CT  CT  OS  CT   opls    0.0000    0.0000    0.5523    0.0000
 CT  CT  C   OS   opls    0.0000    0.0000   -2.3138    0.0000
 
+
 IMPROPER
 # improper C aromatics AMBER JACS 117(1995)5179
 CA  CA  CA  HA   opls    0.0000    9.2048    0.0000    0.0000
@@ -189,6 +192,7 @@ CA  CA  CA  CT   opls    0.0000    9.2048    0.0000    0.0000
 CA  CA  CA  OH   opls    0.0000    9.2048    0.0000    0.0000
 # improper C carbonyl
 OS  OS  C_2 O_2  opls    0.0000   87.8640    0.0000    0.0000
+OS  OS  C   O    opls    0.0000   87.8640    0.0000    0.0000
 CT  N   C   O    opls    0.0000   87.8640    0.0000    0.0000
 HC  N   C   O    opls    0.0000   87.8640    0.0000    0.0000
 N   N   C   O    opls    0.0000   87.8640    0.0000    0.0000
