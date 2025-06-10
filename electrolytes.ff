@@ -56,7 +56,14 @@ SBT   SB   32.066   1.13   lj    3.55   1.04600
 NBT   NB   14.000  -0.67   lj    3.25   0.71128
 OBT   OB   15.999  -0.58   lj    3.15   0.83736
 F1    FB   18.998  -0.16   lj    3.118  0.25540
-
+# Carbonates, OPLS-AA
+COC   C    12.011   0.86   lj    3.75   0.43932
+OC    O    15.999  -0.50   lj    2.96   0.87864
+OSC   OS   15.999  -0.45   lj    3.00   0.71128
+C3C   CT   12.011   0.18   lj    3.50   0.27614
+C2C   CT   12.011   0.21   lj    3.50   0.27614
+C1C   CT   12.011   0.16   lj    3.50   0.27614
+HCC   HC    1.008   0.03   lj    2.50   0.10878   
 
 BONDS
 # i j    pot    re/A    kr/kJmol-1
@@ -79,6 +86,9 @@ FB  CF   harm   1.323   3698.0
 CF  SB   harm   1.818   1950.0
 SB  OB   harm   1.437   5331.0
 NB  SB   harm   1.570   3137.0
+# Carbonates
+C   OS   harm   1.327   1790.8
+C   O    harm   1.229   4769.8
 
 
 ANGLES
@@ -114,7 +124,9 @@ CF  SB  OB   harm   102.6   870.0
 NB  SB  OB   harm   113.6   789.0
 NB  SB  CF   harm   103.5   764.0
 SB  NB  SB   harm   125.6   671.0      
-
+# Carbonates
+CT  OS  C    harm   116.9   695.5
+OS  C   O    harm   123.4   695.5
 
 DIHEDRALS
 # i j   k   l    pot     v1        v2        v3        v4
@@ -154,7 +166,12 @@ OB  SB  CF  FB   opls    0.0000    0.0000    1.4510    0.0000
 NB  SB  CF  FB   opls    0.0000    0.0000    1.3220    0.0000
 OB  SB  NB  SB   opls    0.0000    0.0000   -0.0150    0.0000
 SB  NB  SB  CF   opls   32.7730  -10.4200   -3.1950    0.0000
-
+# Carbonates
+HC  CT  OS  C    opls    0.0000    0.0000    0.8285    0.0000
+CT  OS  C   O    opls    0.0000   21.4393    0.0000    0.0000
+CT  OS  C   OS   opls   19.5355   21.4393    0.0000    0.0000
+CT  CT  OS  CT   opls    0.0000    0.0000    0.5523    0.0000
+CT  CT  C   OS   opls    0.0000    0.0000   -2.3138    0.0000
 
 IMPROPER
 # improper C aromatics AMBER JACS 117(1995)5179
