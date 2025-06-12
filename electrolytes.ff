@@ -183,6 +183,7 @@ CT  OS  C   O    opls    0.0000   21.4393    0.0000    0.0000
 CT  OS  C   OS   opls   19.5355   21.4393    0.0000    0.0000
 CT  CT  OS  CT   opls    0.0000    0.0000    0.5523    0.0000
 CT  CT  C   OS   opls    0.0000    0.0000   -2.3138    0.0000
+CT  CT  OS  C    opls   -5.1046   -0.5272    1.7657    0.0000
 
 
 IMPROPER

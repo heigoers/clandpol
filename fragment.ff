@@ -69,6 +69,7 @@ emso         0.0      4.9310
 deso         0.0      5.0306
 mems         0.0      5.1414
 dmf          0.0      4.3105
+dmc          0.0      3.8934
 ec           0.0      5.9471
 pc           0.0      6.0915
 
@@ -225,6 +226,7 @@ C4H10      urea    3.344
 C4H10      meoh    3.691
 C4H10      actn    3.522
 C4H10      me2o    3.943    0.90
+C4H10      pc      4.388    0.87
 tol        tol     6.383
 dmso       dmso    3.575    0.58
 dmso       tol     4.183    0.75
@@ -253,3 +255,4 @@ deso       deso    4.147    0.61
 mems       mems    4.317    0.72
 dmc        dmc     3.364    0.79
 ec         ec      3.289    0.75
+pc         pc      3.614    0.74
