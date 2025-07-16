@@ -164,6 +164,7 @@ Ca         dmc     3.699    0.05
 Mg         dmc     2.801    0.01
 Ca         ec      4.040    0.05
 Mg         ec      3.806    0.01
+Zn         ec      3.467    0.07
 Ca         pc      4.361    0.05
 Mg         pc      4.135    0.01
 # neutral-anion
@@ -178,7 +179,7 @@ C4H10      cl      3.348    0.45
 C4H10      br      3.501
 C4H10      oac     4.273
 C4H10      otf     3.960
-C4H10      pf6     4.279
+C4H10      pf6     4.085    0.44
 C4H10      fsi     4.556
 c6h12      oac     5.311
 tol        oac     5.221
