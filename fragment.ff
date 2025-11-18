@@ -43,6 +43,7 @@ clo4        -1.0      0.0036
 dftfsi      -1.0      5.2919
 ots         -1.0     10.8615
 so4         -2.0      3.6503
+tra         -1.0      1.4326
 # neutral    
 C4H10        0.0      0.0000
 C4F10        0.0      0.0236      
@@ -62,6 +63,8 @@ ch3cooh      0.0      4.0667
 me2o         0.0      1.4548
 h2o          0.0      2.1217
 thf          0.0      1.9421
+thp          0.0      1.5822
+dox          0.0      1.2630
 slflane      0.0      6.1138
 3mesl        0.0      6.2606
 ems          0.0      5.5065
@@ -72,6 +75,8 @@ dmf          0.0      4.3105
 dmc          0.0      3.8934
 ec           0.0      5.9471
 pc           0.0      6.0915
+gbl          0.0      5.1762
+tr0          0.0      2.8801
 
 DIMERS
 # m1        m2     r_COM/Å  k_sapt
@@ -95,9 +100,10 @@ N1111      cl      3.524
 N1111      oac     3.995
 N2000      no3     3.453    0.20
 P1111      cl      3.453
-P1111      oac     3.855
+P1111      oac     3.855    0.27
 P1111      fsi     4.226
 P1111      tfsi    4.422    0.56
+P1111      tra     4.354    0.30
 ch         cl      3.499    0.35
 Na         fsi     2.815
 Li         fsi     2.548
@@ -134,6 +140,7 @@ P1111      bz      4.467
 P1111      ch3cooh 4.418
 P1111      me2o    4.093    0.58
 P1111      meoh    4.051
+P1111      tr0     4.805    0.52
 N1110      C4H10   4.403
 ch         meoh    4.015
 Na         dme     2.245
@@ -167,6 +174,10 @@ Mg         ec      3.806    0.01
 Zn         ec      3.467    0.07
 Ca         pc      4.361    0.05
 Mg         pc      4.135    0.01
+Ca         gbl     3.220    0.05
+Mg         gbl     3.689    0.01
+Ca         dmf     3.901    0.05
+Mg         dmf     3.717    0.01
 # neutral-anion
 C4H10      dca     3.542    0.69
 C6H14      dca     3.608    0.61
@@ -177,10 +188,11 @@ C6H14      bf4     3.476    0.51
 C4H10      mso     3.737    0.56
 C4H10      cl      3.348    0.45
 C4H10      br      3.501
-C4H10      oac     4.273
+C4H10      oac     4.273    0.31
 C4H10      otf     3.960
 C4H10      pf6     4.085    0.44
 C4H10      fsi     4.556
+C4H10      tra     5.286    0.36
 c6h12      oac     5.311
 tol        oac     5.221
 meoh       cl      3.165
@@ -204,7 +216,11 @@ h2o        tfsi    3.867
 ems        tfsi    5.111    0.67
 h2o        oac     3.132
 thf        cl      3.511    0.46
+thf        pf6     4.317    0.59
+thf        tfsi    4.707    0.71
 slflane    cl      3.827    0.43
+slflane    pf6     4.767    0.57
+slflane    tfsi    5.212    0.65
 3mesl      cl      4.090    0.28
 ems        cl      3.400    0.27
 ems        bf4     4.168    0.51
@@ -223,6 +239,14 @@ me2o       pf6     4.237    0.60
 emso       cl      3.810    0.26
 me2o       cl      4.419    0.43
 me2o       bf4     3.828    0.53
+tr0        tra     4.783    0.23
+tr0        oac     3.941    0.21
+gbl        pf6     4.621    0.43
+gbl        tfsi    5.248    0.66
+dmf        cl      4.265    0.38
+dmf        bf4     4.541    0.52
+dmf        pf6     4.968    0.57
+dmf        tfsi    5.516    0.73
 # neutral-neutral
 C4H10      C4H10   4.170    0.94
 C4H10      tol     3.618    0.90
@@ -238,7 +262,10 @@ C4H10      urea    3.344
 C4H10      meoh    3.691
 C4H10      actn    3.522
 C4H10      me2o    3.943    0.90
+C4H10      ec      3.930    0.87
 C4H10      pc      4.388    0.87
+C4H10      tr0     3.941    0.86
+tr0        tr0     4.887    0.42
 tol        tol     6.383
 dmso       dmso    3.575    0.58
 dmso       tol     4.183    0.75
@@ -250,6 +277,7 @@ urea       urea    4.317
 ch3cooh    ch3cooh 4.221
 ch3cooh    actn    3.396
 dme        dme     3.856    0.84
+dmf        dmf     3.235    0.77
 dme        me2o    3.886    0.81 
 an         an      3.403    0.69
 bz         bz      3.800    0.95
@@ -258,6 +286,8 @@ nmp        nmp     3.518    0.79
 me2o       me2o    3.360    0.89
 h2o        h2o     2.780
 thf        thf     3.834    0.81
+thp        thp     4.821    0.86
+dox        dox     3.816    0.77
 slflane    slflane 4.709    0.69
 3mesl      3mesl   4.503    0.61
 ems        ems     4.379    0.58
@@ -268,3 +298,4 @@ mems       mems    4.317    0.72
 dmc        dmc     3.364    0.79
 ec         ec      3.289    0.75
 pc         pc      3.614    0.74
+gbl        gbl     3.583    0.68
