@@ -15,9 +15,12 @@ ATOMS
 #Cations from Yu et al., JCTC, 2010, 6, 774-786
 Ca  Ca    40.080  +2.00     lj    2.22644  0.8786
 Mg  Mg    24.305  +2.00     lj    2.00704  0.2092
-Zn  Zn   65.380   +2.00     lj    1.66592  1.0460
+Zn  Zn    65.380   +2.00    lj    1.66592  1.0460
 #Anions from Yu et al., JCTC, 2010, 6, 774-786
 Cl  Cl    35.453  -1.00     lj    4.42084  0.3011
+#Borohydride from Matias et al. Nat Commun 15, 1397 (2024)
+BH  B     10.810   0.52   lj    3.20   0.39748
+HB  HB     1.008  -0.38   lj    2.57   0.18410
 # alkanes JACS 118(1996)11225, JPC 100(1996)18010
 C4C   CT  12.011   0.00   lj    3.50   0.27614
 C4H   CT  12.011  -0.24   lj    3.50   0.27614
@@ -103,6 +106,8 @@ SB  OB   harm   1.437   5331.0
 NB  SB   harm   1.570   3137.0
 # hexafluorophosphate JCSPerkin2(1999)2365
 P   F    harm   1.606   3100.0
+# borohydride Nat Commun 15, 1397 (2024)
+B   HB   cons   1.502   2046.3   
 # Carbonates
 C   OS   harm   1.327   1790.8
 C   O    harm   1.229   4769.8
@@ -152,7 +157,9 @@ OB  SB  OB   harm   118.5   969.0
 CF  SB  OB   harm   102.6   870.0
 NB  SB  OB   harm   113.6   789.0
 NB  SB  CF   harm   103.5   764.0
-SB  NB  SB   harm   125.6   671.0      
+SB  NB  SB   harm   125.6   671.0
+#Borohydride
+HB  B   HB   harm   109.5   259.8      
 # Carbonates OPLS-AA
 CT  OS  C    harm   116.9   695.5
 OS  C   O    harm   123.4   695.5
