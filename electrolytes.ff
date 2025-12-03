@@ -21,6 +21,13 @@ Cl  Cl    35.453  -1.00     lj    4.42084  0.3011
 #Borohydride from Matias et al. Nat Commun 15, 1397 (2024)
 BH  B     10.810   0.52   lj    3.20   0.39748
 HB  HB     1.008  -0.38   lj    2.57   0.18410
+#BHFIP4 from Phys. Chem. Chem. Phys., 2022,24, 674-686, ChelpG charges
+B4    B   10.810   1.36   lj    3.60   0.20920
+O4    OS  15.999  -0.59   lj    2.90   0.58576
+CT4   CT  12.011  -0.10   lj    3.50   0.27614
+C44   CT  12.011   0.67   lj    3.50   0.27614
+F4    FB  18.998  -0.23   lj    2.94   0.25522
+HC4   HC   1.008   0.14   lj    2.50   0.12552
 # alkanes JACS 118(1996)11225, JPC 100(1996)18010
 C4C   CT  12.011   0.00   lj    3.50   0.27614
 C4H   CT  12.011  -0.24   lj    3.50   0.27614
@@ -108,6 +115,9 @@ NB  SB   harm   1.570   3137.0
 P   F    harm   1.606   3100.0
 # borohydride Nat Commun 15, 1397 (2024)
 B   HB   cons   1.502   2046.3   
+#BHFIP4 from Phys. Chem. Chem. Phys., 2022,24, 674-686
+B   OS   harm   1.481   2845.1
+CT  FB   harm   1.332   3071.1
 # Carbonates
 C   OS   harm   1.327   1790.8
 C   O    harm   1.229   4769.8
@@ -159,7 +169,12 @@ NB  SB  OB   harm   113.6   789.0
 NB  SB  CF   harm   103.5   764.0
 SB  NB  SB   harm   125.6   671.0
 #Borohydride
-HB  B   HB   harm   109.5   259.8      
+HB  B   HB   harm   109.5   259.8 
+#BHFIP4 from Phys. Chem. Chem. Phys., 2022,24, 674-686
+OS  B   OS   harm   109.5   502.1
+CT  OS  B    harm   114.6   502.1
+FB  CT  FB   harm   109.1   644.3
+CT  CT  FB   harm   109.5   418.4   
 # Carbonates OPLS-AA
 CT  OS  C    harm   116.9   695.5
 OS  C   O    harm   123.4   695.5
@@ -244,6 +259,13 @@ CT  N   C   O    opls    0.0000   25.4770    0.0000    0.0000
 HC  C   N   CT   opls    9.6234   25.4770    0.0000    0.0000
 # Nitriles
 HC  CT  CZ  NZ   opls    0.0000    0.0000    0.0000    0.0000
+#BHFIP4 from Phys. Chem. Chem. Phys., 2022,24, 674-686
+OS  B   OS  CT   opls    0.0000    0.0000    0.0000    0.0000
+B   OS  CT  CT   opls    0.0000    3.1380    0.0000    0.0000
+B   OS  CT  HC   opls    0.0000    3.1380    0.0000    0.0000
+OS  CT  CT  FB   opls   -6.0961    0.0000    0.0000    0.0000
+CT  CT  CT  FB   opls   -1.5355    3.4685    0.0000    0.0000
+HC  CT  CT  FB   opls    0.0000    1.8493    0.0000    0.0000
 
 IMPROPER
 # improper C aromatics AMBER JACS 117(1995)5179
