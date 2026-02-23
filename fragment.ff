@@ -227,9 +227,15 @@ bz         br      4.792
 me2o       tfsi    4.519    0.75
 h2o        tfsi    3.867
 ems        tfsi    5.111    0.67
+ma         tfsi    3.718    0.81
 h2o        oac     3.132
 thf        cl      3.511    0.46
+thf        bh4     4.984    0.38
+thf        bf4     3.870    0.52
+thf        boh4    3.961    0.54
 thf        pf6     4.317    0.59
+thf        otf     5.169    0.73
+thf        fsi     4.311    0.69
 thf        tfsi    4.707    0.71
 slflane    cl      3.827    0.43
 slflane    bf4     4.324    0.38
@@ -243,12 +249,16 @@ ems        pf6     5.112    0.39
 dmc        cl      3.468    0.28
 dmc        pf6     4.092    0.47
 dmc        tfsi    5.094    0.67
+dmc        fsi     4.529    0.70
+dmc        otf     4.296    0.62
 dmc        bf4     3.904    0.51
 dmc        bh4     3.786    0.39
 ec         cl      4.384    0.42
 ec         bf4     4.663    0.39
 ec         bh4     4.591    0.41
 ec         pf6     5.128    0.44
+ec         otf     5.179    0.59
+ec         fsi     4.986    0.66
 ec         tfsi    5.518    0.66
 pc         cl      4.269    0.43
 pc         tfsi    5.588    0.65
@@ -258,6 +268,8 @@ emso       cl      3.810    0.26
 me2o       cl      4.419    0.43
 me2o       bf4     3.828    0.53
 me2o       bh4     3.855    0.39
+me2o       otf     4.311    0.64
+me2o       fsi     4.023    0.79
 tr0        tra     4.783    0.23
 tr0        oac     3.941    0.21
 gbl        pf6     4.621    0.43
@@ -267,6 +279,7 @@ dmf        bf4     4.541    0.52
 dmf        pf6     4.968    0.57
 dmf        tfsi    5.516    0.73
 dma        tfsi    4.920    0.71
+tmu        tfsi    5.638    0.72
 dmc        boh4    4.144    0.53
 me2o       boh4    3.663    0.53
 ec         boh4    4.632    0.48
@@ -334,5 +347,6 @@ gbl        gbl     3.583    0.68
 hfip       hfip    4.835    0.59
 hfip       dmc     4.048    0.53
 hfip       me2o    3.663    0.53
+hfip       thf     4.667    0.47
 hfip       ec      4.908    0.90
 hfip       slflane 4.544    0.53
