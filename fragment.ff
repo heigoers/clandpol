@@ -83,6 +83,11 @@ gbl          0.0      5.1762
 tr0          0.0      2.8801
 hfip         0.0      2.7089
 ma           0.0      1.9592
+dec          0.0      0.5957 
+emc          0.0      0.5203 
+ide          0.0      1.3802      
+idz          0.0      4.3273  
+mmoa         0.0      3.1545  
 
 DIMERS
 # m1        m2     r_COM/Å  k_sapt
@@ -350,3 +355,11 @@ hfip       me2o    3.663    0.53
 hfip       thf     4.667    0.47
 hfip       ec      4.908    0.90
 hfip       slflane 4.544    0.53
+dec        dec     2.990    0.83
+emc        emc     4.342    0.88
+etoh       etoh    3.449    0.52
+h2o        etoh    2.963    0.46
+ide        ide     4.018    0.79
+idz        idz     3.492    0.79
+me2o       etoh    3.753    0.68
+mmoa       mmoa    3.153    0.77
