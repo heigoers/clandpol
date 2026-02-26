@@ -357,7 +357,7 @@ hfip       ec      4.908    0.90
 hfip       slflane 4.544    0.53
 dec        dec     2.990    0.83
 emc        emc     4.342    0.88
-etoh       etoh    3.449    0.52
+etoh       etoh    3.449    0.68
 h2o        etoh    2.963    0.46
 ide        ide     4.018    0.79
 idz        idz     3.492    0.79
