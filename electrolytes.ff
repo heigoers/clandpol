@@ -231,6 +231,8 @@ CT  C   O    harm   117.0   585.8
 HC  CT  C    harm   109.5   292.9
 CT  CT  C    harm   111.1   527.2
 OS  C   CT   harm   109.5   418.4
+#Esters
+OS  CT  C    harm   109.5   292.9
 # Amides
 HC  CT  N    harm   109.5   292.9
 HC  C   O    harm   123.0   292.9
@@ -240,13 +242,15 @@ N   C   O    harm   122.9   669.4
 HC  C   N    harm   114.0   334.7
 N   C   CT   harm   116.6   585.8
 N   C   N    harm   114.2   585.8
+N   CT  CT   harm   111.1   527.2
 # Nitriles
 HC  CT  CZ   harm   108.5   292.9
 CT  CZ  NZ   harm   180.0  1255.2
 # Amines
 CT  CT  NT   harm   109.5   470.3
 CT  NT  CT   harm   107.2   433.5
-HC  CT  NT   harm   109.5   292.9  
+HC  CT  NT   harm   109.5   292.9
+NT  CT  NT   harm   109.5   470.3
 
 DIHEDRALS
 # i j   k   l    pot     v1        v2        v3        v4
@@ -302,6 +306,10 @@ HC  CT  CT  C    opls    0.0000    0.0000   -0.9414    0.0000
 CT  CT  CT  C    opls  -13.3260   -3.4518    2.0627    0.0000
 CT  OS  C   CT   opls    1.0460   -1.0460    2.0921    0.0000
 HC  CT  C   OS   opls    0.0000    0.0000    1.2552    0.0000
+# Esters
+C   CT  OS   CT   opls    2.7196   -1.0460    2.8033    0.0000
+O   C   CT   OS   opls    0.0000    0.0000    0.0000    0.0000
+OS  C   CT   OS   opls   -2.3012    0.0000    0.0000    0.0000
 # Amides
 HC  CT  N   CT   opls    0.0000    0.0000    0.0000    0.0000
 HC  CT  N   C    opls    0.0000    0.0000   -0.5816    0.0000
@@ -310,6 +318,8 @@ HC  C   N   CT   opls    9.6234   25.4770    0.0000    0.0000
 CT  N   C   CT   opls    9.6234   25.4770    0.0000    0.0000
 HC  CT  C   N    opls    0.0000    0.0000    0.0000    0.0000
 CT  N   C   N    opls   19.2469    0.0000    0.0000    0.0000
+CT  CT  N   CT   opls   11.9620    8.6107  -47.1369    0.0000
+HC  CT  CT  N    opls    0.0000    0.0000    1.9414    0.0000
 # Nitriles
 HC  CT  CZ  NZ   opls    0.0000    0.0000    0.0000    0.0000
 #BHFIP4 from Phys. Chem. Chem. Phys., 2022,24, 674-686
@@ -336,6 +346,10 @@ CT  CT  NT  CT   opls    1.7404   -0.5355    2.9079    0.0000
 CT  NT  CT  HC   opls    0.0000    0.0000    2.3430    0.0000
 HC  CT  CT  NT   opls   -4.2383   -2.9665    1.9790    0.0000
 NT  CT  CT  NT   opls   46.1704   -4.0501    1.1297    0.0000
+CT  NT  NT  CT   opls    0.0000    0.0000    1.2552    0.0000
+CT  NT  CT  NT   opls    1.7405   -0.5355    2.9079    0.0000
+CT  CT  N   C    opls    0.0000    1.9330    0.0000    0.0000   
+N   CT  CT  N    opls    7.5981    5.1128    6.6149    0.0000
 
 IMPROPER
 # improper C aromatics AMBER JACS 117(1995)5179

@@ -195,21 +195,21 @@ Ca         dmf     3.901    0.05
 Mg         dmf     3.717    0.01
 Ca         hfip    2.687    0.06
 Mg         hfip    2.771    0.01
-Mg         dec              0.00    
-Mg         emc              0.00
-Mg         ide              0.00
-Mg         mmoa             0.00    
-Mg         idz              0.00
-Ca         ide              0.05
-Ca         dec              0.05
-Ca         emc              0.05
-Ca         idz              0.05
-Ca         mmoa             0.05
-Zn         idz              0.05
-Zn         dec              0.05    
-Zn         emc              0.05
-Zn         ide              0.03
-Zn         mmoa             0.04    
+Mg         dec     0.000    0.00    
+Mg         emc     0.000    0.00
+Mg         ide     0.000    0.00
+Mg         mmoa    0.000    0.00    
+Mg         idz     0.000    0.00
+Ca         ide     0.000    0.05
+Ca         dec     0.000    0.05
+Ca         emc     0.000    0.05
+Ca         idz     0.000    0.05
+Ca         mmoa    0.000    0.05
+Zn         idz     0.000    0.05
+Zn         dec     0.000    0.05    
+Zn         emc     0.000    0.05
+Zn         ide     0.000    0.03
+Zn         mmoa    0.000    0.04    
 # neutral-anion
 C4H10      dca     3.542    0.69
 C6H14      dca     3.608    0.61
@@ -309,21 +309,21 @@ dmc        tdi     5.791    0.63
 me2o       tdi     3.866    0.86
 ec         tdi     5.335    0.66
 slflane    tdi     4.125    0.75
-idz        tfsi             0.62    
-dec        tfsi             0.65    
-emc        tfsi             0.65
-ide        tfsi             0.57
-mmoa       tfsi             0.63
-dec        pf6              0.47
-emc        pf6              0.47
-ide        pf6              0.41
-idz        pf6              0.45
-mmoa       pf6              0.47    
-dec        cl               0.28    
-emc        cl               0.29
-ide        cl               0.25    
-idz        cl               0.33    
-mmoa       cl               0.31                 
+idz        tfsi    0.000    0.62    
+dec        tfsi    0.000    0.65    
+emc        tfsi    0.000    0.65
+ide        tfsi    0.000    0.57
+mmoa       tfsi    0.000    0.63
+dec        pf6     0.000    0.47
+emc        pf6     0.000    0.47
+ide        pf6     0.000    0.41
+idz        pf6     0.000    0.45
+mmoa       pf6     0.000    0.47    
+dec        cl      0.000    0.28    
+emc        cl      0.000    0.29
+ide        cl      0.000    0.25    
+idz        cl      0.000    0.33    
+mmoa       cl      0.000    0.31                 
 # neutral-neutral
 C4H10      C4H10   4.170    0.94
 C4H10      tol     3.618    0.90
@@ -387,7 +387,7 @@ hfip       ec      4.908    0.90
 hfip       slflane 4.544    0.53
 dec        dec     2.990    0.83
 emc        emc     4.342    0.88
-etoh       etoh    3.449    0.68
+etoh       etoh    3.449    0.52
 h2o        etoh    2.963    0.46
 ide        ide     4.018    0.79
 idz        idz     3.492    0.79
