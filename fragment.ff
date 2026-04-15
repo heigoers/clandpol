@@ -135,6 +135,7 @@ c2c1im     tol     3.894    0.63
 c2c1im     dmso    5.021    0.42
 c2c1im     bz      4.049    0.62
 c2c1im     h2o     3.736
+c2c1im     me2o    4.242    0.49
 c1c1pyrr   C4H10   4.429    0.67
 c1c1pyrr   dme     5.023    0.59
 c2py       C4H10   3.761    0.76
@@ -242,9 +243,15 @@ slflane    bf4     4.324    0.38
 slflane    bh4     4.396    0.39
 slflane    pf6     4.767    0.57
 slflane    tfsi    5.212    0.65
+slflane    fsi     5.121    0.66
+slflane    otf     4.851    0.58
 3mesl      cl      4.090    0.28
 ems        cl      3.400    0.27
 ems        bf4     4.168    0.51
+ems        fsi     4.562    0.65
+ems        bh4     4.167    0.45
+ems        boh4    4.137    0.50
+ems        otf     4.842    0.57
 ems        pf6     5.112    0.39
 dmc        cl      3.468    0.28
 dmc        pf6     4.092    0.47
@@ -278,6 +285,12 @@ dmf        cl      4.265    0.38
 dmf        bf4     4.541    0.52
 dmf        pf6     4.968    0.57
 dmf        tfsi    5.516    0.73
+dma        cl      4.251    0.38
+dma        pf6     5.003    0.56
+dma        bh4     4.836    0.44
+dma        bf4     4.533    0.50
+dma        otf     4.276    0.61
+dma        fsi     4.326    0.69
 dma        tfsi    4.920    0.71
 tmu        tfsi    5.638    0.72
 dmc        boh4    4.144    0.53
@@ -345,6 +358,7 @@ ec         ec      3.289    0.75
 pc         pc      3.614    0.74
 gbl        gbl     3.583    0.68
 hfip       hfip    4.835    0.59
+hfip       ems     4.779    0.53
 hfip       dmc     4.048    0.53
 hfip       me2o    3.663    0.53
 hfip       thf     4.667    0.47
