@@ -22,6 +22,9 @@ Cl  Cl    35.453  -1.00     lj    4.42084  0.3011
 #Borohydride from Matias et al. Nat Commun 15, 1397 (2024)
 BH  B     10.810   0.52   lj    3.20   0.39748
 HB  HB     1.008  -0.38   lj    2.57   0.18410
+# tetrafluoroborate anion
+B     B    10.811   0.96   lj    3.58   0.39750
+FB    F    18.998  -0.49   lj    3.12   0.25520
 #BHFIP4 from Phys. Chem. Chem. Phys., 2022,24, 674-686, ChelpG charges
 B4    B   10.810   1.36   lj    3.60   0.20920
 O4    OS  15.999  -0.59   lj    2.90   0.58576
@@ -167,6 +170,8 @@ CT  CZ   harm   1.470   3263.5
 CZ  NZ   harm   1.157   5439.2
 # Amines
 CT  NT   harm   1.448   3196.6
+# tetrafluoroborate
+B   F    harm   1.394   3235.0
 
 ANGLES
 # i j   k    pot    th/deg  ka/kjmol-1
@@ -252,6 +257,8 @@ CT  CT  NT   harm   109.5   470.3
 CT  NT  CT   harm   107.2   433.5
 HC  CT  NT   harm   109.5   292.9
 NT  CT  NT   harm   109.5   470.3
+# tetrafluoroborate anion
+F   B   F    harm   109.5   669.5
 
 DIHEDRALS
 # i j   k   l    pot     v1        v2        v3        v4
