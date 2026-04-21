@@ -337,16 +337,16 @@ emc        cl      0.000    0.29
 ide        cl      0.000    0.25
 idz        cl      0.000    0.33
 mmoa       cl      0.000    0.31
-ide        boh4    0.000    0.00
-idz        boh4    0.000    0.00
-ide        bf4     0.000    0.00
-idz        bf4     0.000    0.00
-ide        bh4     0.000    0.00
-idz        bh4     0.000    0.00
-ide        otf     0.000    0.00
-idz        otf     0.000    0.00
-ide        fsi     0.000    0.00
-idz        fsi     0.000    0.00
+ide        boh4    0.000    0.43
+idz        boh4    0.000    0.42
+ide        bf4     0.000    0.35
+idz        bf4     0.000    0.40
+ide        bh4     0.000    0.38
+idz        bh4     0.000    0.36
+ide        otf     0.000    0.43
+idz        otf     0.000    0.52
+ide        fsi     0.000    0.62
+idz        fsi     0.000    0.56
 # neutral-neutral
 C4H10      C4H10   4.170    0.94
 C4H10      tol     3.618    0.90
@@ -417,5 +417,5 @@ ide        ide     4.018    0.79
 idz        idz     3.492    0.79
 me2o       etoh    3.753    0.68
 mmoa       mmoa    3.153    0.77
-hfip       ide     0.000    0.00
-hfip       idz     0.000    0.00
+hfip       ide     0.000    0.38
+hfip       idz     0.000    0.47
