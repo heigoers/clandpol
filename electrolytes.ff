@@ -143,6 +143,8 @@ FB  CF   harm   1.323   3698.0
 CF  SB   harm   1.818   1950.0
 SB  OB   harm   1.437   5331.0
 NB  SB   harm   1.570   3137.0
+# bis(fluorosulfonyl)amide
+FB  SB   harm   1.575   1879.0
 # hexafluorophosphate JCSPerkin2(1999)2365
 P   F    harm   1.606   3100.0
 # borohydride Nat Commun 15, 1397 (2024)
@@ -212,6 +214,9 @@ CF  SB  OB   harm   102.6   870.0
 NB  SB  OB   harm   113.6   789.0
 NB  SB  CF   harm   103.5   764.0
 SB  NB  SB   harm   125.6   671.0
+# bis(fluorosulfonyl)amide
+FB  SB  OB   harm   104.1  1077.0
+FB  SB  NB   harm   103.0   902.0
 #Borohydride
 HB  B   HB   harm   109.5   259.8 
 #BHFIP4 from Phys. Chem. Chem. Phys., 2022,24, 674-686
@@ -304,6 +309,8 @@ OB  SB  CF  FB   opls    0.0000    0.0000    1.4510    0.0000
 NB  SB  CF  FB   opls    0.0000    0.0000    1.3220    0.0000
 OB  SB  NB  SB   opls    0.0000    0.0000   -0.0150    0.0000
 SB  NB  SB  CF   opls   32.7730  -10.4200   -3.1950    0.0000
+# bis(fluorosulfonyl)amide
+FB  SB  NB  SB   opls   11.4450  -15.1860   -3.2120    0.0000
 # Carbonates
 HC  CT  OS  C    opls    0.0000    0.0000    0.8285    0.0000
 CT  OS  C   O    opls    0.0000   21.4393    0.0000    0.0000
